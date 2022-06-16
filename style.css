@@ -1,0 +1,399 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.clearefix::after{
+    content: "";
+    float:both ;
+    display:block;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+/*  HEADSER  MANU */
+
+.full-width-websit{
+    /* width: 1250px; */
+    /* width: 1280px;
+    margin: auto; */
+}
+
+/* .fixed-width{
+    width: 1025px;
+    margin: auto;
+} */
+
+
+
+.full-website{
+    background-color: #22c2a2;
+    width: 100%;
+    margin: auto;
+    height:120px;
+    /* padding: 25px 0;
+   */
+
+
+}
+.full-website .logo-left{
+  
+   width: 30%;
+ 
+    color: white;
+    display: inline-block;
+    padding: 0 20px;
+}  
+
+.logo-left h1 {
+    font-size: 23px;
+    margin-top: 45px;
+}
+
+/*         HERDER MANU     */
+
+
+
+.hdmanu-right{
+    text-align: right;
+    width: 70%;
+    float: right;
+   
+}
+.hdmanu-right ul {
+    list-style-type: none;
+    line-height: 96px;
+}
+.hdmanu-right ul li{
+    display: inline-block;
+}   
+.hdmanu-right ul li a{
+    display: inline-block;
+    color: #fff;
+    margin: 10px 15px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    
+ 
+    
+}
+.hdmanu-right ul li a:hover{
+
+}
+
+/* BANNER SECTION */
+
+.banner-section{
+    font-size: 20px;
+    text-align: center;
+    background-image: url(https://i.ibb.co/RH3rCJb/header-bg01.jpg) ;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: 200px 0;
+}
+
+.banner-heading h1{
+  font-size: 45px;
+    color: #fff;
+}
+
+
+
+/* jubayer code  */
+
+
+.solid-bdr{
+    width: 100%;
+    border-bottom: 2px solid ;
+}
+.icon-section{
+    width: 100%;
+    border-bottom: 2px solid ;
+}
+jubayer code
+.banner-heading p{
+    font-weight: 600;
+    font-size: 15px;
+  
+    line-height: 30px;
+    
+    color:#ffffff ;
+}
+span{
+    font-size: 15px;
+    color: white;
+}
+   
+.botton{
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px 15px;
+    display: inline-block;
+ 
+
+}
+.botton a{
+    font-size: 15px;
+    margin-top:10px ;
+    color: white;
+    text-decoration: none; 
+} 
+
+
+
+/* SERVICE SECTION */
+
+
+.service-section{
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.service-section .service-part h1{
+    padding: 10px 0;
+}
+.service-section  p{
+   
+}
+
+.service-part p{
+
+}
+/* ICON SECTION */
+
+.icon-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+
+
+
+.icon-manu{
+    width: 23%;
+   text-align: center;
+   /* width: 245px; */
+   float: left;
+   margin: auto;
+   padding: 50px;
+  
+   
+
+}
+
+
+.icon-manu .icon-logo{
+    color: #0dbf9b;
+    font-size: 35px;
+   
+}
+
+
+
+.icon-manu h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*           BORDER        */
+
+.border-fixd{
+    width: 100%;
+    border-bottom: 2px solid #70d9c4;
+    float: left;
+}
+
+/* end border */
+
+
+/*  ABOUT US */
+
+.about-section{
+    padding-bottom: 0px ;
+  
+}
+
+
+.par-section {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.par-section{
+    padding-top: 100px 0;
+    text-align: center;
+    
+   
+}
+
+.par-section h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.par-section p {
+    margin-bottom: 30px;
+}
+
+
+.pragraph-left{
+    width: 30%;
+    float: left;
+}
+
+.para-section{
+   text-align: center;
+
+}
+.imag-part {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+  
+}
+.imag-part img{
+    width: 100%;
+    
+    
+}
+
+.para-right{
+
+    float: right;
+    width: 45%;
+
+}
+
+
+.coment-section {
+    width: 100%;
+    text-align: left;
+}
+
+.coment-section h2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.coment-section p{}
+
+/* END ABOUT US */
+
+.footer-part{
+    float: left;
+    background-color: #f6f6f6 ;
+    background:cover ;
+    width: 100%;
+    margin-top:40px;
+
+}
+
+.footer-manu{
+    text-align:center;
+
+}
+/*    ADDDRES ICON */
+
+
+
+.manu-icon {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.content-icon{
+}
+
+.left-icon{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 86px;
+    margin: 20px 0;   
+}
+
+.left-icon i{
+    color: #0dbf9b;
+}
+
+.left-icon p{
+    color:#adadad ;
+}
+
+.left-icon .middle-icon i p{
+    display:block;
+    padding-bottom:10px ;
+  
+}
+.middle-icon i{
+    padding-bottom: 40px;
+    line-height:10px;
+}
+.middle-icon i p{
+
+}
+
+
+
+/*  END ADDRES ICON */
+
+
+ /*  SOCIAL ICON */
+
+     
+ .brand-icon{
+    float: left;
+    background-color: #0dbf9b ;
+    background:cover ;
+    width: 100%;
+   
+
+}
+
+.brand-manu{
+    padding: 20px 0;
+    text-align:center;
+
+}    
+   
+.brand-manu i{
+    color: white;
+    padding: 0 20px;
+   font-size: 20px;
+}
+     
+
+
+/* END BRAND MANU */
+.comon-border{
+       
+    background: #000;
+}
+
+
+/* BOTTOM FOOTER */
+
+.last-footer{
+    float: left;
+    background-color: #222222 ;
+    width: 100%;
+    color: #505050;
+    text-align:center;
+    padding: 12px 0;
+   
+
+}
+
+
